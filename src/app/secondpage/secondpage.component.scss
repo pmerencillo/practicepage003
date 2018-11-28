@@ -1,0 +1,52 @@
+#wrapper{
+width:100%;
+#top-bar
+{
+ height: 5px;
+ width: 100%;
+ background: green; 
+ }
+#container1-flex
+{
+display:flex;
+#thin-left-bar
+{
+background:green;
+height:400px;
+width:20px;
+}
+#blue-column
+{
+background: blueviolet;
+width:300px; //est. 1/3width 
+height:400px;  
+}
+#container2-grid
+{
+  display:block;
+
+  #iBar-top-red
+  {
+    background: red;
+    width:300px;
+    height:100px;
+  }
+  #inner-flex-container
+  {
+    display:flex;
+  #iBar-mid-yellow
+  {
+    background: yellow;
+    width:75px;
+    height:200px;
+  }
+  #iBar-mid-red
+    {
+    background: red;
+    width:75px;
+    height:200px;
+  }
+  }//end inner-flex-con...
+}
+}//end flex-container1
+}//end wrapper
